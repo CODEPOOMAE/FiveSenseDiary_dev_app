@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/navigation_shared_diary"
+        android:icon="@drawable/ic_shared_diary_black"
+        android:title="@string/title_shared_diary" />
+
+    <item
+        android:id="@+id/navigation_diary_map"
+        android:icon="@drawable/ic_diary_map_black"
+        android:title="@string/title_diary_map" />
+
+    <item
+        android:id="@+id/navigation_my_diary"
+        android:icon="@drawable/ic_my_diary_black"
+        android:title="@string/title_my_diary" />
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/ic_user_v1_black"
+        android:title="@string/title_profile" />
+
+</menu>

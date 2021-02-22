@@ -1,0 +1,65 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="NaNumTextViewStyle" parent="@android:style/Widget.DeviceDefault.TextView">
+        <item name="android:fontFamily">@font/nanumbarungothic</item>
+    </style>
+    <style name="NaNumButtonStyle" parent="@android:style/Widget.DeviceDefault.Button.Borderless">
+        <item name="android:fontFamily">@font/nanumbarungothic</item>
+    </style>
+    <style name="NaNumEditTextStyle" parent="@android:style/Widget.DeviceDefault.EditText">
+        <item name="android:fontFamily">@font/nanumbarungothic</item>
+    </style>
+    <style name="NaNumRadioButtonStyle" parent="@android:style/Widget.DeviceDefault.CompoundButton.RadioButton">
+        <item name="android:fontFamily">@font/nanumbarungothic</item>
+    </style>
+    <style name="NaNumCheckboxStyle" parent="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox">
+        <item name="android:fontFamily">@font/nanumbarungothic</item>
+    </style>
+
+    <style name="FSDToolbarTheme" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="android:background">@color/fiveS_topBanner</item>
+        <item name="android:textColor">@color/fiveS_topBanner</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:actionMenuTextColor">@color/fiveS_topBanner</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_back_v1_black</item>
+    </style>
+
+    <style name="FSDToolbarLoginTheme" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="android:background">@color/fiveS_topBanner</item>
+        <item name="android:textColor">@color/fiveS_topBanner</item>
+        <item name="android:actionMenuTextColor">@color/fiveS_main_mint</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_back_v1_black</item>
+    </style>
+
+    <!--툴바 텍스트-->
+    <style name="ToolbarText" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">18dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/fiveS_topBanner</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay"
+        parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay"
+        parent="ThemeOverlay.AppCompat.Light" />
+
+
+
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_shared_diary">
+
+
+    <fragment
+        android:id="@+id/navigation_shared_diary"
+        android:name="coms.example.fivesensediary.ui.sharedDiary.SharedDiaryFragment"
+        android:label="@string/title_shared_diary"
+        tools:layout="@layout/fragment_shared_diary" />
+
+    <fragment
+        android:id="@+id/navigation_diary_map"
+        android:name="coms.example.fivesensediary.ui.diaryMap.DiaryMapFragment"
+        android:label="@string/title_diary_map"
+        tools:layout="@layout/fragment_diary_map" />
+
+    <fragment
+        android:id="@+id/navigation_my_diary"
+        android:name="coms.example.fivesensediary.ui.myDiary.MyDiaryFragment"
+        android:label="@string/title_my_diary"
+        tools:layout="@layout/fragment_my_diary" />
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="coms.example.fivesensediary.ui.profile.ProfileFragment"
+        android:label="@string/title_profile"
+        tools:layout="@layout/fragment_shared_diary" />
+</navigation>

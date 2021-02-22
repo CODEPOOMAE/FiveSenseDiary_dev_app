@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">fiveSenseDiary</string>
+    <string name="title_shared_diary">공유일기장</string>
+    <string name="title_diary_map">일기지도</string>
+    <string name="title_my_diary">나의일기장</string>
+    <string name="title_profile">사용자</string>
+
+    <string name="hint_id">ID</string>
+    <string name="hint_password">비밀번호</string>
+    <string name="hint_name">이름</string>
+    <string name="hint_nickname">닉네임</string>
+    <string name="hint_birth">생년월일 (ex.991010)</string>
+</resources>
