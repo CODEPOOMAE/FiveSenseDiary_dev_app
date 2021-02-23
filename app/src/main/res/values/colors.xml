@@ -20,4 +20,6 @@
     <color name="colorPrimaryDark">#3700B3</color>
     <color name="colorAccent">#03DAC5</color>
 
+    <color name="intro_background_color">#FCFAF4</color>
+
 </resources>
