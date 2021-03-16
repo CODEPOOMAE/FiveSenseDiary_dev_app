@@ -1,25 +1,14 @@
 package coms.example.fivesensediary;
 
-import android.graphics.Color;
-import android.os.AsyncTask;
 import android.os.Bundle;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
-import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
-
-import com.prolificinteractive.materialcalendarview.CalendarDay;
-
-import java.util.ArrayList;
-import java.util.Calendar;
-import java.util.List;
-
-import coms.example.fivesensediary.decorators.EventDecorator;
 
 public class MainActivity extends AppCompatActivity {
 
