@@ -34,6 +34,8 @@ import coms.example.fivesensediary.decorators.SundayDecorator;
 
 public class SharedDiaryFragment extends Fragment {
 
+    public int a;
+
     private final OneDayDecorator oneDayDecorator = new OneDayDecorator();
     Cursor cursor;
     MaterialCalendarView materialCalendarView;
